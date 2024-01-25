@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms-Video-Audio</title>
+</head>
+
+<body>
+    <h1>Form, Audio, and Video</h1>
+    <hr>
+    <h2>Form / Input Types</h2>
+    <form action="" method="get">
+        <label for="text">text:</label>
+        <input type="text" id="text" name="text"><br><br>
+
+        <label for="email">email:</label>
+        <input type="email" name="email" id="email"><br><br>
+
+        <label for="tel">Tel:</label>
+        <input type="tel" name="tel" id="tel"><br><br>
+
+        <label for="date">Date:</label>
+        <input type="date" name="date" id="date"><br><br>
+
+        <label for="number">Number:</label>
+        <input type="number" name="number" id="number"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password"><br><br>
+
+        <label for="color">Color:</label>
+        <input type="color" name="color" id="color"><br><br>
+
+        <label for="file">File:</label>
+        <input type="file" name="file" id="file"><br><br>
+
+        <label for="range">Range:</label>
+        <input type="range" name="range" id="range"><br><br>
+
+        <label for="search">Search:</label>
+        <input type="search" name="search" id="search"><br><br>
+
+        <!-- CHECKBOX -->
+        <fieldset>
+            <legend>Technology:</legend>
+            <div>
+                <input type="checkbox" name="html" id="html">
+                <label for="html">HTML</label>
+            </div>
+            <div>
+                <input type="checkbox" name="css" id="css">
+                <label for="css">CSS</label>
+            </div>
+            <div>
+                <input type="checkbox" name="javascript" id="javascript">
+                <label for="javascript">Javascript</label>
+            </div>
+            <div>
+                <input type="checkbox" name="sql" id="sql">
+                <label for="sql">SQL</label>
+            </div>
+            <div>
+                <input type="checkbox" name="java" id="java">
+                <label for="java">Java</label>
+            </div>
+            <div>
+                <input type="checkbox" name="apex" id="apex">
+                <label for="apex">Apex</label>
+            </div>
+        </fieldset>
+
+        <br>
+
+        <!-- RADIO -->
+        <fieldset>
+            <legend>Select a maintenance drone:</legend>
+            <div>
+                <input type="radio" id="huey" name="drone" value="huey" checked />
+                <label for="huey">Huey</label>
+            </div>
+            <div>
+                <input type="radio" id="dewey" name="drone" value="dewey" />
+                <label for="dewey">Dewey</label>
+            </div>
+            <div>
+                <input type="radio" id="louie" name="drone" value="louie" />
+                <label for="louie">Louie</label>
+            </div>
+        </fieldset>
+
+        <br><br>
+
+        <label for="comment">Comment</label><br>
+        <textarea name="comment" id="comment" cols="30" rows="5"></textarea><br><br>
+
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
