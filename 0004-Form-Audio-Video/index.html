@@ -98,6 +98,35 @@
 
         <input type="submit" value="Submit">
     </form>
+
+    <hr>
+
+    <h2>Audio:</h2>
+    <!-- Attributes: autoplay, controls, muted, loop -->
+    <!-- <audio controls src="epic-trap-intro.mp3"></audio> -->
+    <!-- use below to specify backup audio source -->
+    <audio controls>
+        <source src="epic-trap-intro.wav">
+        <source src="epic-trap-intro.mp3">
+        This browser does not support HTML5 audio.
+    </audio><br>
+    <hr>
+
+    <h2>Video:</h2>
+    <!-- Video formats allowed: MP4, WebM, and Ogg -->
+    <!-- Attributes: autoplay controls muted loop -->
+    <!-- <video controls src="/motivational-video.mp4" width="450"></video> -->
+    <figure>
+        <figcaption>Superman III 1983 Trailer</figcaption>
+        <video controls width="400">
+            <source src="superman3-1983.webm">
+            <source src="superman3-1983.ogg">
+            <source src="superman3-1983.mp4">
+            This browser does not support HTML5 videos
+        </video>
+    </figure>
+    <hr>
+
 </body>
 
 </html>
