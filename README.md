@@ -14,3 +14,8 @@
 - Added httpbin to see submitted entries
 - HTML audio tag added with sample mp3 file (Epic Trap Intro)
 - HTML video tag added with sample mp4 file (Superman 3 1983 Trailer)
+
+## 0005 CSS
+- Start of CSS
+- CSS link added to index.html
+- style.css created
