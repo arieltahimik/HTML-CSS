@@ -20,3 +20,8 @@
 - CSS link added to index.html
 - style.css created
 - New rules added
+
+## 006 Full/Half Page Background Cover
+- index-full.html for full full background
+- index-half.htnl for half page background
+- style.css used by both html, just modified class rule
