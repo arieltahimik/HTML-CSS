@@ -19,3 +19,4 @@
 - Start of CSS
 - CSS link added to index.html
 - style.css created
+- New rules added
