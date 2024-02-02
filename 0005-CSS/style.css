@@ -1,5 +1,27 @@
+/* Universal selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family:
+    font-size: 16px;
+}
+
 h1 {
-    background-color: blue;
-    color: white;
-    text-align: center;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  line-height: 3rem;
+}
+
+p {
+    width: 50%;
+    margin: 0 auto;
+}
+
+p span{
+    font-weight: bold;
 }
