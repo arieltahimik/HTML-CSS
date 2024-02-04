@@ -1,7 +1,7 @@
 # HTML and CSS
 
 ## Link to Preview Page For Each Section
-### [Preview Page](https://arieltahimik.github.io/HTML-CSS/)
+### [Preview Page](https://arieltahimik.github.io/HTML-CSS/) - Ctrl+Click to open in a new page
 
 ## 0001 Basic HTML Structure
 - index.html: a simple HTML5 document.
