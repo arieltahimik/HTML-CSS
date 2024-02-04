@@ -25,3 +25,4 @@
 - index-full.html for full full background
 - index-half.htnl for half page background
 - style.css used by both html, just modified class rule
+- cover-page.html/css another example of a cover page using different css approach
