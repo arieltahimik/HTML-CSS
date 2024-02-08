@@ -25,6 +25,7 @@
 - CSS link added to index.html
 - style.css created
 - New rules added
+- sample cover page and centered text on page with @media for responsiveness
 
 ## [006 Full/Half Page Background Cover](006-Full-and-Half-Background)
 - index-full.html for full full background

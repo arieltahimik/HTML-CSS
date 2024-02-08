@@ -1,27 +1,38 @@
-/* Universal selector */
+/* Reset all */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html, body {
-    font-family:
+/* Background Image */
+html { 
+    background: url(garrett-parker-unsplash.jpg) no-repeat center center fixed; 
+    background-size: cover;
+}
+
+body {
     font-size: 16px;
+    font-family: system-ui, sans-serif;
 }
 
-h1 {
-  background-color: blue;
-  color: white;
-  text-align: center;
-  line-height: 3rem;
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 5rem;
 }
 
-p {
-    width: 50%;
-    margin: 0 auto;
+.author {
+    font: italic 2rem sans-serif;
 }
 
-p span{
-    font-weight: bold;
-}
+@media only screen and (max-width: 767px) {
+    .container {
+        font-size: 4rem;
+    }
+  }
