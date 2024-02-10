@@ -32,3 +32,4 @@
 - index-half.htnl for half page background
 - style.css used by both html, just modified class rule
 - cover-page.html/css another example of a cover page using different css approach
+- svg-cover.html a sample of using SVG as a background
