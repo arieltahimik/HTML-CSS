@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.bg {
+  background-image: url("nature.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-half {
+  height: 50%;
+}
+
+div {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+
+p,
+a {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 0.75rem;
+  color: antiquewhite;
+}

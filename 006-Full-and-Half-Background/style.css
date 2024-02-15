@@ -1,36 +1,38 @@
+/* Reset all */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body,
-html {
-  height: 100%;
+/* Background Image */
+html { 
+    background: url("image/garrett-parker-unsplash.jpg") no-repeat center center fixed; 
+    background-size: cover;
 }
 
-.bg {
-  background-image: url("nature.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+body {
+    font-size: 16px;
+    font-family: system-ui, sans-serif;
 }
 
-.bg-half {
-  height: 50%;
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 5rem;
 }
 
-div {
-  display: flex;
-  align-items: end;
-  justify-content: end;
+.author {
+    font: italic 2rem sans-serif;
 }
 
-p,
-a {
-  margin-right: 10px;
-  margin-bottom: 10px;
-  font-size: 0.75rem;
-  color: antiquewhite;
-}
+@media only screen and (max-width: 767px) {
+    .container {
+        font-size: 4rem;
+    }
+  }
