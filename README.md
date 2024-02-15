@@ -20,7 +20,7 @@
 - HTML audio tag added with sample mp3 file (Epic Trap Intro)
 - HTML video tag added with sample mp4 file (Superman 3 1983 Trailer)
 
-## [0005 Learn HTML by Building a Cat Photo App]
+## [0005 Learn HTML by Building a Cat Photo App](0005-CatPhotoApp)
 - HTML tags give a webpage its structure. You can use HTML tags to add photos, buttons, and other elements to your webpage.
 - An introduction to HTML by FreeCodeCamp.Org
 
