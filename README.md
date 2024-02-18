@@ -32,10 +32,14 @@
 - New rules added
 - sample cover page and centered text on page with @media for responsiveness -->
 
-## [006 Full/Half Page Background Cover](006-Full-and-Half-Background)
+## [0006 Full/Half Page Background Cover](0006-Full-and-Half-Background)
 - index-full.html for full full background
 - index-half.htnl for half page background
 - style.css used by both html, just modified class rule
 - cover-page.html/css another example of a cover page using different css approach
 - svg-cover.html a sample of using SVG as a background
 - index.html FOCUS
+
+## [0007 CamperCafe](0007-CamperCafe)
+- A coffee and dessert menu for CSS project
+- Following CSS course by Freecodecamp.org
